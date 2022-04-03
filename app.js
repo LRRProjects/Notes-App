@@ -1,7 +1,7 @@
 const fs = require("fs");
 const noteUtilities = require("./notes.js");
 const yargs = require("yargs");
-const { readNotes } = require("./notes.js");
+
 
 //Add,Remove,Read,List
 //Creates add command

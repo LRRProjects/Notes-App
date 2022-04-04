@@ -1,8 +1,5 @@
 # Notes-App
-Created a command line note application that reads user input and stores that user input into a JSON file.
-The yargs module was used to read the user input from the command line, and it was also used to read specific commands in the
-command line and depending on those commands a specific function will run. The fs module was used to read and write the JSON file.
-The chalk module was used to color code error and success messages. The import functionality was used to import functions from a file that I created.
+Created a command line note application that reads user input, stores that user input into a JSON file and reacts to user commands. Different modules were used like the yargs module that was used to read the user input from the command line, the fs module was used to read and write the JSON file, the chalk module was used to color code error/success messages and the import functionality was used to import functions from a file that I created.
 
 If the user enters a command using the following format: 'node app.js add --title="X" --body="X"' the code will run the add function
 behind the scenes. This function verifies if the JSON file exist and if the entry exist, if that was the case and error message bolded in red will be displayed 
